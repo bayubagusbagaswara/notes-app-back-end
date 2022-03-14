@@ -18,5 +18,9 @@
     "tab.hoverBackground": "#171717",
     "tab.hoverForeground": "#ffff",
     "activityBarBadge.background": "#16d8df9c"
-  }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
 }
