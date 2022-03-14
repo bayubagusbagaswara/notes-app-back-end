@@ -7,6 +7,7 @@ const init = async () => {
     host: 'localhost',
   });
 
+  // server akan menangani semua route yang ada di routes
   server.route(routes);
 
   await server.start();
