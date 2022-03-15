@@ -10,3 +10,7 @@
 - ubah struktur project di package `src`
 - `npm install @hapi/hapi`
 - `npm install nanoid`
+
+# Catatan
+- Perbandingan dengan menggunakan simbol `==` hanya akan membandingkan nilai saja. 
+- Sedangkan yang menggunakan `===` akan membandingkan dengan tipe data juga
