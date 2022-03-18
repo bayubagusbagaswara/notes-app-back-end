@@ -27,6 +27,7 @@ const addNoteHandler = (request, h) => {
     response.code(201);
     return response;
   }
+  
   const response = h.response({
     status: 'fail',
     message: 'Catatan gagal ditambahkan',
@@ -38,7 +39,7 @@ const addNoteHandler = (request, h) => {
 const getAllNotesHandler = () => ({
   status: 'success',
   data: {
-    notes: [],
+    notes,
   },
 });
 
